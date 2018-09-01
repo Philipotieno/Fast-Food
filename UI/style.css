@@ -1,5 +1,6 @@
 
-body {
+/* Index page */
+.index {
     width: 50%;
     height: 100%;
     padding: 50px;;
@@ -14,8 +15,6 @@ body {
     margin-top: -65px;
 
 }
-
-/* Index page */
 
 .container {
     height: 550px;
@@ -77,8 +76,20 @@ h4 {
 }
 
 /* sign up page */
+.form {
+    height: 550px;
+    max-width: 800px;
+    background: #A8EF1B;
+    border-radius: 20px;
+    position: relative;
+    padding: 5px;
+}
 
-/* Full-width input fields */
+* {
+    box-sizing: border-box;
+}
+
+/* input fields */
 input[type=text], input[type=password] {
   width: 80%;
   padding: 15px;
@@ -89,13 +100,53 @@ input[type=text], input[type=password] {
 }
 
 label {
- font-family: Georgia, "Times New Roman", Times, serif;
- font-size: 18px;
- color: #27DF0B;
- height: 20px;
- width: 200px;
- margin-top: 10px;
- margin-left: 10px;
- text-align: right;
- clear: both;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #DF0BD8;
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px
+    text-align: right;
+    clear: both;
+    float:left;
+}
+
+.signup {
+    width: 50%;
+    height: 100%;
+    padding: 50px;;
+    text-align: center;
+    background-image: url('4.jpg');
+    background-repeat: no-repeat scroll left center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -65px;
+
+}
+/* open an account button */
+.button1 { 
+    vertical-align: middle;
+    position: relative;
+    margin-top: 1px;
+}
+
+.btn1:hover {
+    background: #DF0BD8;
+}
+.btn1{
+    border:1px solid white;
+    border-radius: 25px;
+    padding:10px 40px;
+    color:white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:13px;
+    background-color: #314AC9;
+    font-family:sans-serif;
 }
