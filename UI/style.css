@@ -1,4 +1,4 @@
-/* Index page */
+
 body {
     width: 50%;
     height: 100%;
@@ -14,6 +14,8 @@ body {
     margin-top: -65px;
 
 }
+
+/* Index page */
 
 .container {
     height: 550px;
@@ -73,3 +75,6 @@ h4 {
     background-color: #314AC9;
     font-family:sans-serif;
 }
+
+/* sign up page */
+
