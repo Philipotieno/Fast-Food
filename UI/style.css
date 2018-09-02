@@ -3,7 +3,7 @@
     height: 100%;
     padding: 50px;;
     text-align: center;
-    background-image: url('4.jpg');
+    background-image: url('4.png');
     background-repeat: no-repeat scroll left center;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -208,7 +208,7 @@ input[ type = checkbox] {
     height: 100%;
     padding: 50px;;
     text-align: center;
-    background-image: url('4.jpg');
+    background-image: url('4.png');
     background-repeat: no-repeat scroll left center;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -258,14 +258,21 @@ input[ type = checkbox] {
     }
 }
 
-/*
-
-div h4 {
-    color: #314AC9;
-    font-size: 30px;
-    text-shadow: 2px 2px #ff0000;
-    background: #59E8A0;
-    border-size: 20px;
+/* History */
+.ordercont .date{
+    background-color: #C904C2;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
 }
 
-*/
+h5 {
+    color: #4DC408; 
+    float: left;
+    margin-top: -25px;
+}
