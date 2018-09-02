@@ -230,7 +230,6 @@ input[ type = checkbox] {
 }
 
 .ordercont .orderbtn{
-    position: absolute;
     background-color: #003DE4;
     color: white;
     font-size: 12px;
@@ -251,3 +250,22 @@ input[ type = checkbox] {
 .ordercont .orderbtn:hover {
   background-color: #4DC408;
 }
+
+@media all (max-width: 30em) {
+    .orderbtn {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+/*
+
+div h4 {
+    color: #314AC9;
+    font-size: 30px;
+    text-shadow: 2px 2px #ff0000;
+    background: #59E8A0;
+    border-size: 20px;
+}
+
+*/
