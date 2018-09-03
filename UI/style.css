@@ -1,4 +1,4 @@
-.index,.signup,.signin,.order, .history {
+.index,.signup,.signin,.order, .history, .table {
     width: 50%;
     height: 100%;
     padding: 50px;;
@@ -375,6 +375,7 @@ th {
 
 th, td {
     padding: 16px;
+    font
 }
 
 td {
@@ -382,6 +383,40 @@ td {
 }
 
 tr:hover {
-    color: #F8FAF8;
-    background - color: : #BB4ACD;
+    color: #0010F6;
+}
+
+
+.edit { 
+    vertical-align: middle;
+    position: relative;
+    margin-top: 30px;
+    float: right;
+}
+
+
+.rows, .save, .undo, .cancel {
+    border:1px solid white;
+    border-radius: 25px;
+    padding:8px 15px;
+    color:white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:13px;
+    background-color: #314AC9;
+    font-family:sans-serif;
+}
+
+.rows,.save:hover {
+    background: #4DC408;
+}
+
+
+
+.undo:hover {
+    background: #E4721B;
+}
+
+.cancel:hover {
+    background: #red;
 }
