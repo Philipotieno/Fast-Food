@@ -355,3 +355,33 @@ h5 {
     width: 80px;
     transform: translate(2%, -40%);
 }
+
+
+/* edit table */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #4DC408;
+}
+
+
+th {
+    width: 10px;
+    color: #010EC0;
+    background: #C6C8E5;
+}
+
+th, td {
+    padding: 16px;
+}
+
+td {
+    background: #D9EB81;
+}
+
+tr:hover {
+    color: #F8FAF8;
+    background - color: : #BB4ACD;
+}
