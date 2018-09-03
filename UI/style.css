@@ -39,12 +39,12 @@
 h3 {
     color: #F70B0B;
     font-size: 40px;
-    text-shadow: 2px 2px #29D70E; 
+    text-shadow: 2px 0px #29D70E; 
 }
 h4 {
     color: #314AC9;
     font-size: 30px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #26CE1A;
 }
 
 .button { 
@@ -251,12 +251,7 @@ input[ type = checkbox] {
   background-color: #4DC408;
 }
 
-@media all (max-width: 30em) {
-    .orderbtn {
-        display: block;
-        margin: 0.4em auto;
-    }
-}
+
 
 /* History */
 .ordercont .date{
@@ -275,4 +270,88 @@ h5 {
     color: #4DC408; 
     float: left;
     margin-top: -25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: white 0px 0px 10px;
+}
+
+
+
+/* view_orders */
+.ordercont .declinebtn{
+    background-color: #003DE4;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+.ordercont .declinebtn:hover {
+  background-color: red;
+}
+
+.ordercont .acceptbtn{
+    background-color: #00DFBA;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+.ordercont .acceptbtn:hover {
+  background-color: #4DC408;
+}
+
+.ordercont .completebtn{
+    background-color: #4DC408;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+.ordercont .declinedbtn{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+.ordercont .processbtn{
+    background-color: #003DE4;
+    color: white;
+    font-size: 10px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+.ordercont .acceptedbtn{
+    background-color: #4DC408;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
 }
