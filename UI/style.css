@@ -433,13 +433,29 @@ tr:hover {
     /* sign in and sign up */
 .menu {
     width: 200px;
-    margin-top: 30px;
-    
+    margin-top: 20px;
+    overflow: hidden;
+
 }
 .menu a {
-
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: #3646D8;
+    display: block;
+    padding: 6px 4px;
+    text-decoration: none;
+    border-radius: 20px;
+    float: left;
 }
 
+.menu a:hover {
+    background-color: #E618E6;
+}
+.menu a.active {
+    background-color: green;
+    color: white;
+}
 
 /* Responsivenes */
 /* Tablet Landscape */
