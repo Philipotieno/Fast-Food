@@ -441,7 +441,7 @@ tr:hover {
     text-align: center;
     color: white;
     font-weight: bolder;
-    background-color: #3646D8;
+    background-color: #403C15;
     display: block;
     padding: 6px 4px;
     text-decoration: none;
@@ -451,10 +451,6 @@ tr:hover {
 
 .menu a:hover {
     background-color: #E618E6;
-}
-.menu a.active {
-    background-color: green;
-    color: white;
 }
 
 /* Responsivenes */
