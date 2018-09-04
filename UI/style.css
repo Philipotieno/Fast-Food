@@ -17,9 +17,10 @@
 .container {
     height: 550px;
     max-width: 800px;
-    /*background: #A8EF1B; */
+    /* background: #A8EF1B; */
     border-radius: 20px;
     position: relative;
+
 }
 
 .highlight {
@@ -217,8 +218,30 @@ input[ type = checkbox] {
     margin-right: auto;
     margin-top: -65px;
 }
+.history { 
+    position: relative;
+    margin-top: -71px;
+    float: right;
+    margin-left: 1px;
+}
+
+
+.hist{
+    border:1px solid white;
+    border-radius: 25px;
+    padding:8px 15px;
+    color:white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:13px;
+    background-color: #314AC9;
+    font-family:sans-serif;
+}
 
 /* Ajust the container for button*/
+.row {
+    margin-top:6px;
+}
 .ordercont {
   position: relative;
   width: 25%;
