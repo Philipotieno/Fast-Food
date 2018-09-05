@@ -1,0 +1,483 @@
+* {
+    box-sizing: border-box;
+}
+.index,.signup,.signin,.order, .history, .table {
+    width: 90%;
+    height: 100%;
+    padding: 50px;;
+    text-align: center;
+    background-image: url('images/9.jpg');
+    background-repeat: no-repeat scroll left center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -65px;
+}
+
+
+.container{
+    height: 550px;
+    width: 70%;
+    /* background: #A8EF1B;
+    border-radius: 20px;  */
+    position: relative;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo {
+    color:#4DC408;
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+}
+
+
+h3 {
+    color: #F70B0B;
+    font-size: 40px;
+    text-shadow: 2px 0px #29D70E; 
+}
+h4 {
+    color: #314AC9;
+    font-size: 30px;
+    text-shadow: 2px 2px #26CE1A;
+}
+
+.button { 
+    vertical-align: middle;
+    position: relative;
+    margin-top: 160px;
+}
+
+.btn:hover {
+    background: #4DC408;
+}
+.btn{
+    border:1px solid white;
+    border-radius: 25px;
+    padding:10px 80px;
+    color:white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:13px;
+    background-color: #314AC9;
+    font-family:sans-serif;
+}
+.btn1{
+    border:1px solid white;
+    border-radius: 25px;
+    padding:10px 40px;
+    color:white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:13px;
+    background-color: #DF0BD8;
+    font-family:sans-serif;
+}
+
+/* sign up page */
+/* input fields sign up page */
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #06E6DF;
+}
+
+label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF0000;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 10px
+    text-align: right;
+    clear: both;
+    float:left;
+    background-color: #2EE800;
+    padding: 10px;
+    border-radius: 10px;
+}
+ label[for = psw-repeat] {
+    padding: 5px;
+    height: 45px;
+ }
+
+
+/* open an account button */
+.button1 { 
+    position: relative;
+    margin-top: 1px;
+    float: left;
+}
+.button2 { 
+    position: relative;
+    margin-top: -20px;
+    float: right;
+}
+
+.btn1:hover {
+    background: #314AC9;
+}
+
+
+/* sign in */
+
+.check {
+    margin-top: 6px;
+    height: 40px;
+    color: blue;
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px;
+    border-radius: 10px;
+}
+button {
+    background-color: #2C42D1;
+    color: white;
+    padding: 14px 10px;
+    margin: 1px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+button:hover {
+    background: #4DC408;
+}
+
+
+/*
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+.cancelbtn:hover{
+    background-color: red;
+}
+
+*/
+.button4 { 
+    vertical-align: middle;
+    position: relative;
+    margin-top: 20px;
+}
+
+.btn4, .btn5{
+    border:1px solid white;
+    border-radius: 25px;
+    padding:10px 20px;
+    color:white;
+    text-decoration: none;
+    font-size:13px;
+    background-color: #314AC9;
+    font-family:sans-serif;
+}
+.btn4:hover {
+    background: #4DC408;
+}
+.btn5:hover {
+    background: red;
+}
+
+
+span.psw {
+    padding-top: 16px;
+    font-weight: bolder;
+}
+
+span.psw a{
+    color: #F6FCF8;
+}
+
+span.psw a:hover {
+    color: #061AD4;
+}
+
+input[ type = checkbox] {
+    padding: 10px;
+    height: 0px;
+ }
+
+.button3 { 
+    position: relative;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* order page */
+
+/* Ajust the container for button*/
+
+.ordercont {
+  position: relative;
+  width: 25%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  padding: 5px;
+  flex: 33%
+}
+
+.ordercont .orderbtn{
+    background-color: #003DE4;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+/* Makes the image responsive */
+.ordercont img {
+  width: 100%;
+  height: auto;
+}
+
+.ordercont .orderbtn:hover {
+  background-color: #4DC408;
+}
+
+
+
+/* History */
+.ordercont .date{
+    background-color: #C904C2;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+h5 {
+    color: #4DC408; 
+    float: left;
+    margin-top: -25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: white 0px 0px 10px;
+}
+
+
+
+/* view_orders */
+.ordercont .declinebtn{
+    background-color: #003DE4;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+.ordercont .declinebtn:hover {
+  background-color: red;
+}
+
+.ordercont .acceptbtn{
+    background-color: #00DFBA;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+.ordercont .acceptbtn:hover {
+  background-color: #4DC408;
+}
+
+.ordercont .completebtn{
+    background-color: #4DC408;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+.ordercont .declinedbtn{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+.ordercont .processbtn{
+    background-color: #003DE4;
+    color: white;
+    font-size: 10px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+.ordercont .acceptedbtn{
+    background-color: #4DC408;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(2%, -40%);
+}
+
+
+/* edit table */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #4DC408;
+  table-layout: auto;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+th {
+    width: 10px;
+    color: #010EC0;
+    background: #C6C8E5;
+}
+
+th, td {
+    padding: 16px;
+    font
+}
+
+td {
+    background: #D9EB81;
+}
+
+tr:hover {
+    color: #0010F6;
+}
+
+
+.edit { 
+    vertical-align: middle;
+    position: relative;
+    margin-top: 30px;
+    float: right;
+}
+
+
+.rows, .save, .undo, .cancel {
+    border:1px solid white;
+    border-radius: 25px;
+    padding:8px 15px;
+    color:white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:13px;
+    background-color: #314AC9;
+    font-family:sans-serif;
+}
+
+.rows,.save:hover {
+    background: #4DC408;
+}
+
+.undo:hover {
+    background: #E4721B;
+}
+
+.cancel:hover {
+    background: #red;
+}
+
+/* nav bars/
+    /* sign in and sign up */
+.menu {
+    width: 200px;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+.menu a {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: #403C15;
+    display: block;
+    padding: 6px 4px;
+    text-decoration: none;
+    border-radius: 20px;
+    float: left;
+}
+
+.menu a:hover {
+    background-color: #E618E6;
+}
+
+/* Responsivenes */
+
+@media screen and (max-width: 600px) {
+    .menu a, .index, .button a, .container,.button4, { 
+        float: none;
+        display: block;
+        margin: 0;
+        padding: 14px;
+        width:100%;
+    }
+    .btn, .btn1 {
+        padding: 0px 30px;
+        font-size: 40%;
+        width:30%;
+        margin:0; 
+        border:none; 
+    }
+    .btn1 {
+        padding: 0px 30px;
+        font-size: 40%;
+        width:30%;
+        margin:1; 
+        border:none; 
+    }
+
+}
