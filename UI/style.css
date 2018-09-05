@@ -456,22 +456,28 @@ tr:hover {
 }
 
 /* Responsivenes */
-/* Tablet Landscape */
 
-@media screen and (max-width: 1060px) {
-
-    #primary { width:67%; }
-
-    #secondary { width:30%; margin-left:3%;}  
-
-}
-
-/* Tabled Portrait */
-
-@media screen and (max-width: 768px) {
-
-    #primary { width:100%; }
-
-    #secondary { width:100%; margin:0; border:none; }
+@media screen and (max-width: 600px) {
+    .menu a, .index, .button a, .container,.button4, { 
+        float: none;
+        display: block;
+        margin: 0;
+        padding: 14px;
+        width:100%;
+    }
+    .btn, .btn1 {
+        padding: 0px 30px;
+        font-size: 40%;
+        width:30%;
+        margin:0; 
+        border:none; 
+    }
+    .btn1 {
+        padding: 0px 30px;
+        font-size: 40%;
+        width:30%;
+        margin:1; 
+        border:none; 
+    }
 
 }
