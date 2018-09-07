@@ -3,8 +3,7 @@
   -This is a food delivery app for a restraunt
  
  ## Required features
- 
- 
+
   1. Users can create an account and log in
   2. A user should be able to order for food
   3. The admin should be able to add,edit or delete the fast-food items
@@ -14,3 +13,15 @@
        - Accept and decline orders
        - Mark orders as completed
   6. A user should be able to see a history of ordered food
+
+  ## Testing this
+  **On your terminal:**
+  Clone this repository:
+    $ git clone https://github.com/Philipotieno/Fast-Food
+    $ Open Fast-Food folder
+    $ Open the index.html with a browser
+
+
+    or
+
+    $ Visits https://philipotieno.github.io
