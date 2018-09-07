@@ -202,12 +202,13 @@ span.psw {
 }
 
 span.psw a{
-    color: #F6FCF8;
+    color: #810C7D;
 }
 
 span.psw a:hover {
-    color: #061AD4;
+    color: #F20000;
 }
+
 
 input[ type = checkbox] {
     padding: 10px;

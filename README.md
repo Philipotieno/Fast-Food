@@ -1,4 +1,4 @@
-# fast-food-fast
+# Fast-Food-Fast
 
   -This is a food delivery app for a restraunt
  
